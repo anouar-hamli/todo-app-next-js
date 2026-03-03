@@ -377,11 +377,6 @@ export type TodoUncheckedUpdateManyWithoutUserNestedInput = {
   deleteMany?: Prisma.TodoScalarWhereInput | Prisma.TodoScalarWhereInput[]
 }
 
-export type NullableStringFieldUpdateOperationsInput = {
-  set?: string | null
-  unset?: boolean
-}
-
 export type BoolFieldUpdateOperationsInput = {
   set?: boolean
 }
